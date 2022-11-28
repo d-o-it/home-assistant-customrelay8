@@ -1,0 +1,16 @@
+{
+  "codeowners": [
+    "@d-o-it"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/d-o-it/home-assistant-customrelay8/blob/master/README.md",
+  "issue_tracker": "https://github.com/d-o-it/home-assistant-customrelay8/issues",
+  "domain": "customrelay8",
+  "name": "Custom Relay 8",
+  "iot_class": "local_polling",
+  "requirements": [
+    "serialio==2.4.0"
+  ],
+  "version": "0.0.1"
+}

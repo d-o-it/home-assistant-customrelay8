@@ -83,6 +83,13 @@ class Custom20Relay(SwitchEntity):
         )
 
     @property
+    def icon(self) -> str:
+        """Return a representative icon of the switch."""
+        if self._is_on:
+            return "mdi:toggle-switch-variant"
+        return "mdi:toggle-switch-variant-off"
+
+    @property
     def is_on(self) -> bool:
         """Return True if entity is on."""
         return self._is_on
